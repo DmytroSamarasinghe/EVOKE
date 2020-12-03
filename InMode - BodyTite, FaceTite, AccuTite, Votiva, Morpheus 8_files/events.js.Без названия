@@ -1,0 +1,47 @@
+$ = jQuery.noConflict();
+
+/* fixes plugin bug that adds active class to 'upcoming events' and event category at the same time */
+function update_event_urls(_menuitems) {
+  if(_menuitems.length > 1) {
+    _menuitems.eq(0).removeClass('current-menu-item');
+  }
+}
+
+$(document).ready(function() {
+  if($('.menu-events-navigation-menu.nav').length) {
+    update_event_urls($('.menu-events-navigation-menu.nav .menu-item.current-menu-item'));
+  }
+});
+
+
+// open tabs from other pages contact us
+$( document ).ready(function() {
+//grabs the hash tag from the url
+var hash = window.location.hash;
+//checks whether or not the hash tag is set
+if (hash != "") {
+//removes all active classes from tabs
+$('.nav-tabs li a').each(function() {
+$(this).removeClass('active');
+});
+$('.tab-content div').each(function() {
+  $(this).removeClass('active show');
+});
+//this will add the active class on the hashtagged value
+var link = "";
+$('.nav-tabs li').each(function() {
+  link = $(this).find('a').attr('href');
+  if (link == hash) {
+    $(this).addClass('active');
+  }
+});
+$('.tab-content div').each(function() {
+
+  link = $(this).attr('id');
+  if ('#'+link == hash) {
+
+    $(this).addClass('active show');
+  }
+});
+}
+});

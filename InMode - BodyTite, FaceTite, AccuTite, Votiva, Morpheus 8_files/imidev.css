@@ -1,0 +1,1086 @@
+  /*
+*
+* GENERAL THEMING
+*
+*/
+
+/* line 7, ../sass/imidev/imidev.scss */
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* line 11, ../sass/imidev/imidev.scss */
+.nopadding-left {
+  padding-left: 0 !important;
+}
+
+@media (max-width: 768px) {
+  /* line 15, ../sass/imidev/imidev.scss */
+  .mobile-text-center {
+    text-align: center !important;
+  }
+}
+
+/* line 21, ../sass/imidev/imidev.scss */
+.responsive-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 29, ../sass/imidev/imidev.scss */
+.about-the-technology .image img {
+  width: 100%;
+  max-width: 280px;
+}
+
+/* line 33, ../sass/imidev/imidev.scss */
+.row.workstation-link-block .button {
+  margin-bottom: 20px;
+}
+/* line 35, ../sass/imidev/imidev.scss */
+.row.workstation-link-block .button a {
+  min-width: 130px;
+}
+
+/* global nav link hover states */
+/* line 46, ../sass/imidev/imidev.scss */
+.header-nav .ubermenu-skin-minimal .ubermenu-submenu .ubermenu-target:hover:hover, .header-nav .ubermenu-skin-minimal .ubermenu-submenu .ubermenu-target:hover:focus, .header-nav .ubermenu-skin-minimal .ubermenu-submenu .ubermenu-target:hover:active,
+.header-nav .ubermenu-skin-minimal .ubermenu-submenu .ubermenu-active > .ubermenu-target:hover,
+.header-nav .ubermenu-skin-minimal .ubermenu-submenu .ubermenu-active > .ubermenu-target:focus,
+.header-nav .ubermenu-skin-minimal .ubermenu-submenu .ubermenu-active > .ubermenu-target:active,
+.header-nav .ubermenu-skin-minimal .ubermenu-submenu .ubermenu-item-header > .ubermenu-target:hover:hover,
+.header-nav .ubermenu-skin-minimal .ubermenu-submenu .ubermenu-item-header > .ubermenu-target:hover:focus,
+.header-nav .ubermenu-skin-minimal .ubermenu-submenu .ubermenu-item-header > .ubermenu-target:hover:active,
+.header-nav .ubermenu ul.ubermenu-nav > li > a:hover,
+.header-nav .ubermenu ul.ubermenu-nav > li > a:focus,
+.header-nav .ubermenu ul.ubermenu-nav > li > a:active {
+  color: #59b7b3;
+}
+
+/* Sticky Navigation theming */
+/* line 55, ../sass/imidev/imidev.scss */
+#page {
+  padding-top: 125px;
+}
+@media screen and (max-width: 768px) {
+  /* line 55, ../sass/imidev/imidev.scss */
+  #page {
+    padding-top: 65px;
+  }
+}
+/* line 65, ../sass/imidev/imidev.scss */
+#page header {
+  position: relative;
+  z-index: 2;
+}
+/* line 69, ../sass/imidev/imidev.scss */
+#page header {
+  -webkit-transition: top .4s ease-in-out;
+  -moz-transition: top .4s ease-in-out;
+  transition: top .4s ease-in-out;
+  -webkit-box-shadow: 0px -3px 12px 1px #000000;
+  -moz-box-shadow: 0px -3px 12px 1px #000000;
+  box-shadow: 0px -3px 12px 1px #000000;
+  position: sticky;
+  min-height: 65px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+/* line 84, ../sass/imidev/imidev.scss */
+.admin-bar #page header,
+.admin-bar #page .header_new_version {
+  top: 32px;
+}
+/* line 89, ../sass/imidev/imidev.scss */
+#page #content {
+  position: relative;
+  z-index: 1;
+}
+/* line 93, ../sass/imidev/imidev.scss */
+#page .nav-wrapper {
+  position: relative;
+}
+/* line 96, ../sass/imidev/imidev.scss */
+#page .header-nav {
+  min-height: 65px;
+}
+@media screen and (max-width: 959px) {
+  /* line 107, ../sass/imidev/imidev.scss */
+  #page.navbar-hide header {
+    top: -65px;
+  }
+}
+/* line 113, ../sass/imidev/imidev.scss */
+#page .header-nav > .container {
+  width: 100%;
+}
+/* line 116, ../sass/imidev/imidev.scss */
+#page .header-nav .mobile-logo {
+  float: left;
+  padding: 20px 0 5px;
+  width: 70%;
+  max-width: 230px;
+  position: relative;
+  z-index: 999;
+}
+/* line 121, ../sass/imidev/imidev.scss */
+#page .header-nav .mobile-logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/* line 127, ../sass/imidev/imidev.scss */
+#page .header-nav .ubermenu-skin-minimal.ubermenu-responsive-toggle {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  padding-right: 5px;
+}
+
+/* line 145, ../sass/imidev/imidev.scss */
+nav a:hover, nav a:focus, nav a:active {
+  outline: none;
+}
+
+/*
+*
+* CLIENT QA THEME UPDATES
+*
+*/
+/* line 157, ../sass/imidev/imidev.scss */
+#page .treatments .grid .item .hexagon {
+  -webkit-transition: background-color 500ms ease-in-out;
+  -moz-transition: background-color 500ms ease-in-out;
+  transition: background-color 500ms ease-in-out;
+}
+/* line 161, ../sass/imidev/imidev.scss */
+#page .treatments .grid .item .hexagon:hover {
+  background-color: #1e7d79;
+}
+/* line 164, ../sass/imidev/imidev.scss */
+#page .treatments .grid .item .hexagon .hover-text p {
+  font-size: 1.5rem;
+}
+
+/* line 169, ../sass/imidev/imidev.scss */
+.about-our-mission .our-mission.theme-lite,
+.about-our-vision .our-vision.theme-lite,
+.about-our-company.theme-lite {
+  background: transparent;
+}
+
+/* line 174, ../sass/imidev/imidev.scss */
+#about-mid-section .about-our-mission .our-mission .our-mission-wrap {
+  padding-bottom: 0;
+  -webkit-box-align: normal;
+  -webkit-align-items: normal;
+  align-items: normal;
+}
+
+/* line 180, ../sass/imidev/imidev.scss */
+#about-mid-section {
+  background: url("../images/bg-inmode-about-us.jpg") right bottom no-repeat;
+  background-size: 100% auto;
+  padding-bottom: 40px;
+}
+
+/* header top menu */
+/* line 188, ../sass/imidev/imidev.scss */
+.header-top {
+  position: relative;
+  z-index: 2;
+}
+
+/* line 192, ../sass/imidev/imidev.scss */
+.header-nav {
+  position: relative;
+  z-index: 1;
+}
+
+/* line 196, ../sass/imidev/imidev.scss */
+.header-top-menu .ubermenu-loc-header-top-menu,
+.header-top-menu .ubermenu-loc-header-top-menu-university {
+  margin: 0;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 0;
+}
+/* line 201, ../sass/imidev/imidev.scss */
+.header-top-menu .ubermenu-loc-header-top-menu ul.ubermenu-nav,
+.header-top-menu .ubermenu-loc-header-top-menu-university  ul.ubermenu-nav{
+  text-align: right;
+  font-size: 0;
+}
+/* line 205, ../sass/imidev/imidev.scss */
+.header-top-menu .ubermenu-loc-header-top-menu ul.ubermenu-nav .ubermenu-item,
+.header-top-menu .ubermenu-loc-header-top-menu-university  ul.ubermenu-nav .ubermenu-item {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0;
+}
+/* line 210, ../sass/imidev/imidev.scss */
+.header-top-menu .ubermenu-loc-header-top-menu ul.ubermenu-nav .ubermenu-item a,
+.header-top-menu .ubermenu-loc-header-top-menu-university  ul.ubermenu-nav .ubermenu-item a {
+  font-size: 12px;
+  font-size: 1.2rem;
+  padding: 0 5px;
+  padding: 0 0.5rem;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 35px;
+}
+/* line 219, ../sass/imidev/imidev.scss */
+.header-top-menu .ubermenu-loc-header-top-menu ul.ubermenu-nav .ubermenu-item a:hover, .header-top-menu .ubermenu-loc-header-top-menu ul.ubermenu-nav .ubermenu-item a:active, .header-top-menu .ubermenu-loc-header-top-menu ul.ubermenu-nav .ubermenu-item a:focus,
+.header-top-menu .ubermenu-loc-header-top-menu-university  ul.ubermenu-nav .ubermenu-item a:hover, .header-top-menu .ubermenu-loc-header-top-menu-university  ul.ubermenu-nav .ubermenu-item a:active, .header-top-menu .ubermenu-loc-header-top-menu-university  ul.ubermenu-nav .ubermenu-item a:focus {
+  color: #000;
+}
+@media (max-width: 1023px) {
+  /* line 210, ../sass/imidev/imidev.scss */
+  .header-top-menu .ubermenu-loc-header-top-menu ul.ubermenu-nav .ubermenu-item a,
+  .header-top-menu .ubermenu-loc-header-top-menu-university  ul.ubermenu-nav .ubermenu-item a {
+    font-size: 10px;
+    font-size: 1.0rem;
+  }
+}
+/* line 230, ../sass/imidev/imidev.scss */
+.header-top-menu .ubermenu-loc-header-top-menu ul.ubermenu-nav ul,
+.header-top-menu .ubermenu-loc-header-top-menu-university  ul.ubermenu-nav ul {
+  background: #59b7b3;
+  padding: 30px 30px 30px;
+  width: auto;
+  min-width: 0;
+}
+/* line 236, ../sass/imidev/imidev.scss */
+.header-top-menu .ubermenu-loc-header-top-menu ul.ubermenu-nav ul li a,
+.header-top-menu .ubermenu-loc-header-top-menu-university  ul.ubermenu-nav ul li a {
+  padding: 15px 20px;
+}
+/* line 238, ../sass/imidev/imidev.scss */
+.header-top-menu .ubermenu-loc-header-top-menu ul.ubermenu-nav ul li a span,
+.header-top-menu .ubermenu-loc-header-top-menu-university  ul.ubermenu-nav ul li a span {
+  font-size: 12px;
+  font-size: 1.2rem;
+}
+/* line 243, ../sass/imidev/imidev.scss */
+.header-top-menu .ubermenu-loc-header-top-menu ul.ubermenu-nav ul li:last-child a,
+.header-top-menu .ubermenu-loc-header-top-menu-university  ul.ubermenu-nav ul li:last-child a {
+  border-bottom: 0 !important;
+}
+/* line 249, ../sass/imidev/imidev.scss */
+.header-top-menu .ubermenu-loc-header-top-menu ul.ubermenu-nav ul li,
+.header-top-menu .ubermenu-loc-header-top-menu-university  ul.ubermenu-nav ul li {
+  display: block;
+}
+/* line 255, ../sass/imidev/imidev.scss */
+.header-top-menu .ubermenu-loc-header-top-menu.ubermenu-sub-indicators .ubermenu-has-submenu-drop > .ubermenu-target:after,
+.header-top-menu .ubermenu-loc-header-top-menu-university.ubermenu-sub-indicators .ubermenu-has-submenu-drop > .ubermenu-target:after {
+  content: none;
+}
+
+/* line 261, ../sass/imidev/imidev.scss */
+#main .tech-performs-section .tech-performs-wrapper .tech-performs-slider .item img {
+  height: auto;
+}
+
+/* line 265, ../sass/imidev/imidev.scss */
+header .header-top .header-top-menu .header-search {
+  z-index: 101;
+}
+
+/* about */
+/* line 270, ../sass/imidev/imidev.scss */
+.physician-info-wrapper {
+  margin-bottom: 10px;
+}
+/* line 272, ../sass/imidev/imidev.scss */
+.physician-info-wrapper p:last-child {
+  margin-bottom: 0;
+}
+
+/* Workstations */
+/* line 277, ../sass/imidev/imidev.scss */
+.workstations_type-template-default .tech-performs-section {
+  background: #fdfdfd;
+}
+
+/* line 280, ../sass/imidev/imidev.scss */
+.workstations-tabs .workstations-tabs-inner {
+  padding-bottom: 50px;
+}
+
+/* line 284, ../sass/imidev/imidev.scss */
+.workstations-tabs .tabs .nav-tabs .nav-link:hover {
+  cursor: pointer;
+}
+
+/* line 301, ../sass/imidev/imidev.scss */
+#page .gallery-pagination .gallery-pagination-controls a .next-arrow,
+#page .gallery-pagination .gallery-pagination-controls a .prev-arrow,
+#page .gallery-pagination .gallery-pagination-controls button .next-arrow,
+#page .gallery-pagination .gallery-pagination-controls button .prev-arrow,
+#page .gallery-pagination .gallery-pagination-controls span .next-arrow,
+#page .gallery-pagination .gallery-pagination-controls span .prev-arrow {
+  vertical-align: middle;
+}
+/* line 307, ../sass/imidev/imidev.scss */
+#page .gallery-pagination .gallery-pagination-controls a,
+#page .gallery-pagination .gallery-pagination-controls button,
+#page .gallery-pagination .gallery-pagination-controls span {
+  line-height: 82px;
+  padding: 0 15px;
+}
+/* line 313, ../sass/imidev/imidev.scss */
+#page .about-the-technology .col-md-6 {
+  border: 0;
+  margin-bottom: 5em;
+}
+/* line 315, ../sass/imidev/imidev.scss */
+#page .about-the-technology .col-md-6:nth-child(odd) {
+  border-right: 1px solid #59b7b3;
+}
+@media (max-width: 768px) {
+  /* line 313, ../sass/imidev/imidev.scss */
+  #page .about-the-technology .col-md-6 {
+    border-top: 1px solid #59b7b3;
+    padding-top: 5em;
+  }
+  /* line 321, ../sass/imidev/imidev.scss */
+  #page .about-the-technology .col-md-6, #page .about-the-technology .col-md-6:nth-child(odd) {
+    border-right: 0;
+  }
+  /* line 325, ../sass/imidev/imidev.scss */
+  #page .about-the-technology .col-md-6:first-child {
+    border-top: 0;
+    padding-top: 0;
+  }
+}
+/* line 333, ../sass/imidev/imidev.scss */
+#page .t-news .about-the-technology .col-md-6:nth-child(odd) {
+  border: 0;
+}
+/* line 338, ../sass/imidev/imidev.scss */
+#page .t-news .video-parent {
+  margin-bottom: 40px;
+}
+/* line 341, ../sass/imidev/imidev.scss */
+#page .t-news .patient-video-inner .title {
+  font-size: 24px;
+  font-size: 2.4rem;
+  color: #0d1f2c;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  margin-bottom: 50px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 15px;
+}
+/* line 356, ../sass/imidev/imidev.scss */
+#page .home-video + .explore-section {
+  padding-bottom: 90px;
+  padding-bottom: 9rem;
+}
+@media (min-width: 769px) {
+  /* line 361, ../sass/imidev/imidev.scss */
+  #page .main-slider .slider-wrapper .slider .item .item-inner .ipad-content {
+    padding-right: 65px;
+  }
+}
+@media (max-width: 768px) {
+  /* line 367, ../sass/imidev/imidev.scss */
+  #page .main-slider .slider-wrapper .slider .item .item-inner .ipad-content {
+    max-width: 78%;
+    margin: 0 auto 20px;
+  }
+}
+/* line 378, ../sass/imidev/imidev.scss */
+#page .main-slider .slider-wrapper .slider .item .item-inner .slider-title {
+  padding-left: 4%;
+}
+@media (max-width: 1439px) {
+  /* line 378, ../sass/imidev/imidev.scss */
+  #page .main-slider .slider-wrapper .slider .item .item-inner .slider-title {
+    padding-left: 9%;
+  }
+}
+@media (max-width: 1220px) {
+  /* line 387, ../sass/imidev/imidev.scss */
+  #page .main-slider .slider-wrapper .slider .item .girl-content,
+  #page .main-slider .slider-wrapper .slider .item .journals-wrapper {
+    min-height: 400px;
+  }
+}
+/* line 394, ../sass/imidev/imidev.scss */
+#page .main-slider .slider-wrapper .slider .item .girl-content {
+  margin-bottom: 236px;
+}
+@media (min-width: 769px) and (max-width: 1220px) {
+  /* line 397, ../sass/imidev/imidev.scss */
+  #page .main-slider .slider-wrapper .slider .item .journals-wrapper {
+    padding: 0 5%;
+  }
+  /* line 401, ../sass/imidev/imidev.scss */
+  #page .main-slider .slider-wrapper .slider .item .journals-wrapper .journal {
+    padding-left: 36px;
+  }
+  /* line 404, ../sass/imidev/imidev.scss */
+  #page .main-slider .slider-wrapper .slider .item .journals-wrapper .journal:first-child {
+    max-width: 50%;
+    padding-left: 0;
+  }
+  /* line 407, ../sass/imidev/imidev.scss */
+  #page .main-slider .slider-wrapper .slider .item .journals-wrapper .journal:first-child img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (min-width: 769px) {
+  /* line 413, ../sass/imidev/imidev.scss */
+  #page .main-slider .slider-wrapper .slider .item .journals-wrapper .journal:first-child img {
+    max-width: 355px;
+  }
+}
+@media (max-width: 1023px) {
+  /* line 421, ../sass/imidev/imidev.scss */
+  #page .main-slider .controls .next,
+  #page .main-slider .controls .prev {
+    bottom: 190%;
+  }
+  /* line 426, ../sass/imidev/imidev.scss */
+  #page .main-slider .slider-wrapper .slider .item .journals-wrapper .journal {
+    width: 33.333%;
+    padding: 0;
+    padding-left: 20px;
+    top: 0;
+  }
+  /* line 432, ../sass/imidev/imidev.scss */
+  #page .main-slider .slider-wrapper .slider .item .journals-wrapper .journal img {
+    width: 100%;
+  }
+  /* line 435, ../sass/imidev/imidev.scss */
+  #page .main-slider .slider-wrapper .slider .item .item-inner .slider-title {
+    width: 100%;
+    padding-left: 15px;
+    padding-top: 40px;
+    font-size: 20px;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 1.2;
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto 40px;
+  }
+  .header-top {
+    display: block; 
+  }
+}
+@media (max-width: 767px) {
+  /* line 450, ../sass/imidev/imidev.scss */
+  #page .main-slider .controls .prev {
+    left: 10px;
+  }
+  /* line 453, ../sass/imidev/imidev.scss */
+  #page .main-slider .controls .next {
+    right: 10px;
+  }
+  /* line 457, ../sass/imidev/imidev.scss */
+  #page .main-slider .slider-wrapper .slider .item .journals-wrapper .journal {
+    padding: 0 2.5%;
+    top: 0;
+  }
+  /* line 460, ../sass/imidev/imidev.scss */
+  #page .main-slider .slider-wrapper .slider .item .journals-wrapper .journal.last {
+    position: relative;
+  }
+}
+
+/*
+*
+* EVENTS PAGES THEMING
+*
+*/
+/* * Events Calendar Plugin theme overrides */
+/* line 482, ../sass/imidev/imidev.scss */
+.events-plugin-page.events-page .tabs .menu-events-navigation-menu .menu-item > a:hover,
+.events-plugin-page.events-page .tabs .menu-events-navigation-menu .menu-item.active-trail > a {
+  color: #fff;
+  background-color: #59b7b3;
+}
+
+/* line 490, ../sass/imidev/imidev.scss */
+.tribe-events-list .tribe-events-loop .tribe-events-event-image {
+  float: none;
+  margin: 0;
+  width: 100%;
+}
+/* line 495, ../sass/imidev/imidev.scss */
+.tribe-events-list .type-tribe_events:first-of-type {
+  margin: 0;
+}
+/* line 498, ../sass/imidev/imidev.scss */
+.tribe-events-list .tribe-events-read-more {
+  display: none;
+}
+
+/* line 503, ../sass/imidev/imidev.scss */
+.single-tribe_events .tribe-events-single-event-title,
+.tribe-events-list .events-item .events-title {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-size: 2.4rem;
+  font-family: brandon-grotesque,sans-serif;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+
+/* line 516, ../sass/imidev/imidev.scss */
+#tribe-events-bar .tribe-bar-submit {
+  padding-top: 15px;
+}
+@media (max-width: 768px) {
+  /* line 519, ../sass/imidev/imidev.scss */
+  #tribe-events-bar form {
+    margin-bottom: 10px;
+  }
+}
+
+/* line 525, ../sass/imidev/imidev.scss */
+#tribe-bar-form.tribe-bar-mini .tribe-bar-submit {
+  padding-top: 0px;
+  padding-right: 0;
+}
+/* line 528, ../sass/imidev/imidev.scss */
+#tribe-bar-form.tribe-bar-mini .tribe-bar-submit input[type=submit] {
+  height: 60px;
+}
+
+/* line 532, ../sass/imidev/imidev.scss */
+.tribe-bar-views-inner {
+  padding-bottom: 34px;
+}
+
+/* line 535, ../sass/imidev/imidev.scss */
+input[name*=tribe-bar-]::-webkit-input-placeholder {
+  font-style: normal;
+}
+
+/* line 539, ../sass/imidev/imidev.scss */
+input[name*=tribe-bar-]:-moz-placeholder {
+  font-style: normal;
+}
+
+/* line 543, ../sass/imidev/imidev.scss */
+.tribe-event-placeholder {
+  font-style: normal;
+}
+
+/* line 548, ../sass/imidev/imidev.scss */
+.events-item .event-info,
+.tribe-events-event-meta address.tribe-events-address,
+.tribe-events-list .tribe-events-venue-details {
+  font-size: 16px;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  font-family: freight-sans-pro,sans-serif;
+  line-height: 1.5em;
+  color: #000;
+  margin-bottom: 27px;
+  font-style: normal;
+}
+
+/* SEARCH BAR EXISTING STYLES */
+/* line 562, ../sass/imidev/imidev.scss */
+.events-page .events-search-wrapper .search-fields .search-item input {
+  color: #0d1f2c;
+  border: none;
+  border-bottom: 1px solid #0d1f2c;
+  font-size: 20px;
+  font-size: 2rem;
+  font-family: freight-sans,sans-serif;
+  letter-spacing: 1px;
+  line-height: 36px;
+  width: 100%;
+  outline: 0;
+}
+
+/* TABS & TAB CONTENT EXISTING STYLES */
+/* line 577, ../sass/imidev/imidev.scss */
+.events-page .tabs {
+  margin-top: 40px;
+}
+/* line 579, ../sass/imidev/imidev.scss */
+.events-page .tabs .menu-events-navigation-menu {
+  border: none;
+}
+@media (max-width: 767px) {
+  /* line 579, ../sass/imidev/imidev.scss */
+  .events-page .tabs .menu-events-navigation-menu {
+    display: block;
+    margin-left: -15px;
+    margin-right: -15px;
+    background-color: #59b7b3;
+  }
+}
+/* line 587, ../sass/imidev/imidev.scss */
+.events-page .tabs .menu-events-navigation-menu .menu-item {
+  margin-bottom: -1px;
+  background-color: #fff;
+}
+/* line 590, ../sass/imidev/imidev.scss */
+.events-page .tabs .menu-events-navigation-menu .menu-item:last-child {
+  border-bottom: none;
+}
+/* line 592, ../sass/imidev/imidev.scss */
+.events-page .tabs .menu-events-navigation-menu .menu-item:last-child .nav-link .subitems {
+  border-bottom: none;
+}
+/* line 596, ../sass/imidev/imidev.scss */
+.events-page .tabs .menu-events-navigation-menu .menu-item.current-menu-item > a {
+  color: #fff;
+  background-color: #59b7b3;
+}
+@media (max-width: 500px) {
+  /* line 587, ../sass/imidev/imidev.scss */
+  .events-page .tabs .menu-events-navigation-menu .menu-item {
+    padding: 0 15px;
+  }
+}
+/* line 603, ../sass/imidev/imidev.scss */
+.events-page .tabs .menu-events-navigation-menu .menu-item > a {
+  border-radius: 0;
+  color: #0d1f2c;
+  height: 110px;
+  border: 1px solid #59b7b3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-size: 1.8rem;
+  font-family: brandon-grotesque,sans-serif;
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  width: 170px;
+}
+/* line 620, ../sass/imidev/imidev.scss */
+.events-page .tabs .menu-events-navigation-menu .menu-item > a:focus, .events-page .tabs .menu-events-navigation-menu .menu-item > a:hover {
+  text-decoration: none;
+}
+@media (max-width: 767px) {
+  /* line 603, ../sass/imidev/imidev.scss */
+  .events-page .tabs .menu-events-navigation-menu .menu-item > a {
+    height: 90px;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  /* line 603, ../sass/imidev/imidev.scss */
+  .events-page .tabs .menu-events-navigation-menu .menu-item > a {
+    width: 138px;
+    font-size: 15px;
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 603, ../sass/imidev/imidev.scss */
+  .events-page .tabs .menu-events-navigation-menu .menu-item > a {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 500px) {
+  /* line 603, ../sass/imidev/imidev.scss */
+  .events-page .tabs .menu-events-navigation-menu .menu-item > a {
+    width: 100%;
+  }
+}
+
+/* EVENT CALENDAR PLUGIN THEME OVERRIDES */
+/* line 647, ../sass/imidev/imidev.scss */
+#tribe_events_filters_wrapper #tribe_events_filters_toggle {
+  font-size: inherit;
+}
+
+/* line 654, ../sass/imidev/imidev.scss */
+#tribe-events-pg-template .tribe-events-content h1, #tribe-events-pg-template .tribe-events-content h2, #tribe-events-pg-template .tribe-events-content h3, #tribe-events-pg-template .tribe-events-content h4, #tribe-events-pg-template .tribe-events-content h5, #tribe-events-pg-template .tribe-events-content h6,
+.tribe-events-after-html h1,
+.tribe-events-after-html h2,
+.tribe-events-after-html h3,
+.tribe-events-after-html h4,
+.tribe-events-after-html h5,
+.tribe-events-after-html h6,
+.tribe-events-before-html h1,
+.tribe-events-before-html h2,
+.tribe-events-before-html h3,
+.tribe-events-before-html h4,
+.tribe-events-before-html h5,
+.tribe-events-before-html h6 {
+  margin: 0 0 .5rem;
+}
+
+/* line 667, ../sass/imidev/imidev.scss */
+#tribe_events_filter_control a:not(.register-button),
+#tribe-events .tab-content a:not(.register-button),
+#tribe-events .tribe-events-calendar a:not(.register-button),
+#tribe-events-content .events-item a:not(.register-button),
+#tribe-events-footer a:not(.register-button),
+.type-tribe_events a:not(.register-button),
+#tribe-events .tribe-events-back a:not(.register-button),
+#tribe-events .tribe-events-venue-meta a:not(.register-button) {
+  color: #59b7b3;
+}
+/* line 669, ../sass/imidev/imidev.scss */
+#tribe_events_filter_control a:not(.register-button):focus,
+#tribe-events .tab-content a:not(.register-button):focus,
+#tribe-events .tribe-events-calendar a:not(.register-button):focus,
+#tribe-events-content .events-item a:not(.register-button):focus,
+#tribe-events-footer a:not(.register-button):focus,
+.type-tribe_events a:not(.register-button):focus,
+#tribe-events .tribe-events-back a:not(.register-button):focus,
+#tribe-events .tribe-events-venue-meta a:not(.register-button):focus {
+  outline: none;
+}
+
+/* line 676, ../sass/imidev/imidev.scss */
+#tribe-events .tribe-events-venue-meta .tribe-venue-name {
+  font-size: 24px;
+  font-size: 2.4rem;
+  font-family: "brandon-grotesque", sans-serif;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-weight: bold;
+  margin-bottom: 7px;
+  text-transform: uppercase;
+}
+
+/* line 688, ../sass/imidev/imidev.scss */
+#tribe-events .tribe-events-button,
+#tribe-events .tribe-events-button:hover,
+#tribe_events_filters_wrapper input[type=submit],
+.tribe-events-button,
+.tribe-events-button.tribe-active:hover,
+.tribe-events-button.tribe-inactive,
+.tribe-events-button:hover,
+.tribe-events-calendar td.tribe-events-present div[id*=tribe-events-daynum-],
+.tribe-events-calendar td.tribe-events-present div[id*=tribe-events-daynum-] > a {
+  background-color: #fff;
+  color: #fff;
+  font-size: 14px;
+  font-size: 1.4rem;
+  line-height: 1.4em;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: top;
+  background-image: url(../images/button.png);
+  background-position: center center;
+  padding: 1rem 1.6rem;
+}
+/* line 709, ../sass/imidev/imidev.scss */
+#tribe-events .tribe-events-button:focus,
+#tribe-events .tribe-events-button:hover:focus,
+#tribe_events_filters_wrapper input[type=submit]:focus,
+.tribe-events-button:focus,
+.tribe-events-button.tribe-active:hover:focus,
+.tribe-events-button.tribe-inactive:focus,
+.tribe-events-button:hover:focus,
+.tribe-events-calendar td.tribe-events-present div[id*=tribe-events-daynum-]:focus,
+.tribe-events-calendar td.tribe-events-present div[id*=tribe-events-daynum-] > a:focus {
+  outline: none;
+}
+
+/* line 717, ../sass/imidev/imidev.scss */
+#tribe-events .tribe-events-content p,
+.tribe-events-after-html p,
+.tribe-events-before-html p {
+  font-family: freight-sans-pro, sans-serif;
+  font-size: 16px;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+/* line 724, ../sass/imidev/imidev.scss */
+#tribe-events {
+  padding-bottom: 75px;
+}
+/* line 726, ../sass/imidev/imidev.scss */
+#tribe-events abbr[title] {
+  text-decoration: none;
+}
+/* line 730, ../sass/imidev/imidev.scss */
+.tribe-events-filter-view #tribe-events .tribe-events-page-title {
+  margin-top: 0;
+}
+/* line 734, ../sass/imidev/imidev.scss */
+#tribe-events .tribe-events-schedule {
+  margin: 0 0 1.5em;
+}
+/* line 737, ../sass/imidev/imidev.scss */
+#tribe-events .tribe-events-back {
+  margin: 50px 0 10px;
+}
+/* line 742, ../sass/imidev/imidev.scss */
+.single-tribe_events #tribe-events .tribe-events-schedule .tribe-events-cost {
+  vertical-align: top;
+}
+/* line 745, ../sass/imidev/imidev.scss */
+.single-tribe_events #tribe-events .tribe-events-event-meta {
+  background: #f1f1f3;
+}
+/* line 747, ../sass/imidev/imidev.scss */
+.single-tribe_events #tribe-events .tribe-events-event-meta,
+.single-tribe_events #tribe-events .tribe-events-event-meta abbr,
+.single-tribe_events #tribe-events .tribe-events-event-meta dt,
+.single-tribe_events #tribe-events .tribe-events-event-meta dd {
+  font-family: freight-sans-pro, sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+/* line 757, ../sass/imidev/imidev.scss */
+#tribe-events .tribe-events-adv-list-widget .tribe-events-widget-link a,
+#tribe-events .tribe-events-back a,
+#tribe-events .tribe-events-list-widget .tribe-events-widget-link a,
+#tribe-events .tribe-events-user-recurrence-toggle,
+#tribe-events ul.tribe-events-sub-nav a {
+  font-size: 16px;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+/* line 766, ../sass/imidev/imidev.scss */
+#tribe-events .tribe-events-user-recurrence-toggle {
+  text-align: left;
+}
+
+/* line 772, ../sass/imidev/imidev.scss */
+.tribe-events-page-title {
+  text-transform: uppercase;
+}
+
+/* line 776, ../sass/imidev/imidev.scss */
+#tribe-bar-collapse-toggle {
+  line-height: 31px;
+}
+
+/* line 780, ../sass/imidev/imidev.scss */
+#tribe-bar-form #tribe-bar-views + .tribe-bar-filters {
+  right: 11.6%;
+  width: 88.4%;
+}
+
+/* line 784, ../sass/imidev/imidev.scss */
+#tribe-bar-form .tribe-bar-filters-inner label {
+  display: none;
+}
+
+/* line 787, ../sass/imidev/imidev.scss */
+.tribe-bar-geoloc-filter,
+.tribe-events-uses-geolocation .tribe-bar-date-filter,
+.tribe-events-uses-geolocation .tribe-bar-search-filter {
+  padding-top: 30px;
+  width: 27%;
+}
+
+/* line 793, ../sass/imidev/imidev.scss */
+.tribe-events-uses-geolocation .tribe-bar-submit {
+  width: 18%;
+}
+
+/* line 796, ../sass/imidev/imidev.scss */
+#tribe-bar-form.tribe-bar-mini #tribe-bar-views,
+#tribe-bar-form #tribe-bar-views {
+  left: 88.4%;
+  width: 11.52%;
+}
+
+/* line 801, ../sass/imidev/imidev.scss */
+#tribe-bar-form {
+  background: transparent;
+}
+/* line 803, ../sass/imidev/imidev.scss */
+#tribe-bar-form input[type="text"] {
+  color: #0d1f2c;
+  border: none;
+  border-bottom: 1px solid #0d1f2c;
+  font-size: 16px;
+  font-size: 1em;
+  font-family: freight-sans,sans-serif;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  width: 100%;
+  outline: 0;
+  font-style: normal;
+}
+/* line 818, ../sass/imidev/imidev.scss */
+#tribe-bar-form .tribe-bar-submit input[type=submit] {
+  background: #59b7b3;
+  color: #fff;
+  font-size: 14px;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  height: 50px;
+  border: none;
+  line-height: 49px;
+  display: block;
+  text-transform: uppercase;
+  outline: 0;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 700;
+  font-family: brandon-grotesque,sans-serif;
+  position: relative;
+  padding: 0;
+}
+/* line 837, ../sass/imidev/imidev.scss */
+#tribe-bar-form .tribe-bar-submit input[type=submit]:before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border: 10px solid transparent;
+  border-bottom: 5px solid #fff;
+  bottom: 0;
+  left: calc(50% - 10px);
+}
+/* line 848, ../sass/imidev/imidev.scss */
+#tribe-bar-form .tribe-bar-submit input[type=submit]:after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border: 10px solid transparent;
+  border-top: 5px solid #fff;
+  top: 0;
+  left: calc(50% - 10px);
+}
+
+@media only screen and (max-width: 768px) {
+  /* line 863, ../sass/imidev/imidev.scss */
+  .tribe-events-organizer address.organizer-address, .tribe-events-venue .tribe-events-venue-meta .tribe-events-event-meta {
+    background: transparent;
+  }
+}
+
+/* coming soon overlay */
+/* line 870, ../sass/imidev/imidev.scss */
+#finder-coming-soon {
+  padding: 12% 0 15px;
+}
+/* line 872, ../sass/imidev/imidev.scss */
+#finder-coming-soon p {
+  color: #fff;
+}
+/* line 875, ../sass/imidev/imidev.scss */
+#finder-coming-soon .title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+/* line 879, ../sass/imidev/imidev.scss */
+#finder-coming-soon .text {
+  font-size: 15px;
+}
+/* line 882, ../sass/imidev/imidev.scss */
+#finder-coming-soon a {
+  color: #59b7b3;
+}
+
+/* technology specifications chart updates */
+/* line 894, ../sass/imidev/imidev.scss */
+.single-technologies .specifications .specifications-inner {
+  background: transparent;
+}
+/* line 896, ../sass/imidev/imidev.scss */
+.single-technologies .specifications .specifications-inner .spec-grid {
+  padding: 0;
+}
+
+/* line 902, ../sass/imidev/imidev.scss */
+#tribe-geo-map-wrapper {
+  margin-top: 60px;
+}
+
+/* line 907, ../sass/imidev/imidev.scss */
+.slick-slide.item-inner.item-generic {
+  padding: 180px 0 110px;
+  min-height: 672px;
+  max-height: 672px;
+}
+@media (max-width: 767px) {
+  /* line 907, ../sass/imidev/imidev.scss */
+  .slick-slide.item-inner.item-generic {
+    min-height: 450px;
+    padding: 80px 0;
+  }
+  /* line 913, ../sass/imidev/imidev.scss */
+  .slick-slide.item-inner.item-generic .item {
+    width: 80%;
+  }
+}
+/* line 917, ../sass/imidev/imidev.scss */
+.slick-slide.item-inner.item-generic .item {
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 90%;
+}
+/* line 922, ../sass/imidev/imidev.scss */
+.slick-slide.item-inner.item-generic .header {
+  font-size: 36px;
+  font-size: 3.6rem;
+  font-weight: bold;
+  line-height: 1.4;
+  font-size: 32px;
+  margin-bottom: 10px;
+  display: block;
+}
+/* line 931, ../sass/imidev/imidev.scss */
+.slick-slide.item-inner.item-generic .subheader {
+  font-size: 22px;
+  margin-bottom: 20px;
+  line-height: 24px;
+}
+/* line 936, ../sass/imidev/imidev.scss */
+.slick-slide.item-inner.item-generic p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 24px;
+}
+/* line 942, ../sass/imidev/imidev.scss */
+.slick-slide.image-slide img {
+  width: 100%;
+  height: auto;
+}
+/* line 946, ../sass/imidev/imidev.scss */
+.slick-slide img.image-desktop {
+  display: block;
+}
+@media (max-width: 767px) {
+  /* line 946, ../sass/imidev/imidev.scss */
+  .slick-slide img.image-desktop {
+    display: none;
+  }
+}
+/* line 952, ../sass/imidev/imidev.scss */
+.slick-slide img.image-mobile {
+  display: none;
+}
+@media (max-width: 767px) {
+  /* line 952, ../sass/imidev/imidev.scss */
+  .slick-slide img.image-mobile {
+    display: block;
+  }
+
+  .header-top {
+    display: block !important; 
+  }
+}
